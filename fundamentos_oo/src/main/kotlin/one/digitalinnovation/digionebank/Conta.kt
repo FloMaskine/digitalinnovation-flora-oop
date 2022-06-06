@@ -1,4 +1,4 @@
-package one.digitalinnovation.digionebank.testes
+package one.digitalinnovation.digionebank
 
 import java.math.BigDecimal
 
