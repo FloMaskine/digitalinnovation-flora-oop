@@ -2,7 +2,9 @@ package one.digitalinnovation.digionebank.testes
 
 class Pessoa {
     var nome: String = "Flora"
+
     var cpf: String = "123.456.789-10"
+    private set
 
 }
 
@@ -11,4 +13,6 @@ fun main() {
 
     println(flora.nome)
     println(flora.cpf)
+
+
 }
