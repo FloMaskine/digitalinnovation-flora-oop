@@ -8,8 +8,10 @@ import java.math.BigDecimal
 
 
 fun main() {
-    val cida = Gerente("Aparecida Dos Santos", "068.765.432.40", 6540.0)
+    val cida = Gerente("Aparecida Dos Santos", "068.765.432.40", 6540.0,"senha123")
 
     RelatorioFuncionario.relatorio(cida)
+
+    TesteAutenticacao().autentica(cida)
 }
 

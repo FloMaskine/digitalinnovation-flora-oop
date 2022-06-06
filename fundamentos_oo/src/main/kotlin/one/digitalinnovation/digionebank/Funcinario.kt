@@ -9,8 +9,8 @@ abstract class Funcinario(
 
     override fun toString(): String = """
         Nome: $nome
-        Nome: $cpf
-        Nome: $salario
+        CPF: $cpf
+        Salario: $salario
         Auxilio: ${calculoAuxilio()}
     """.trimIndent()
 }
